@@ -99,7 +99,7 @@ const App: React.FC = () => {
         <header className="text-center mb-12">
           <div className="inline-flex items-center justify-center p-3 rounded-full bg-gradient-to-b from-amber-800/30 to-amber-900/10 border border-amber-700/30 mb-6 shadow-lg shadow-amber-900/20 backdrop-blur-sm">
             <Crown className="w-8 h-8 text-amber-500 mr-2" />
-            <span className="text-amber-200 tracking-widest text-xs font-bold uppercase">AI Dành Cho Lãnh Đạo</span>
+            <span className="text-amber-200 tracking-widest text-xs font-bold uppercase">Cao Trang AI</span>
           </div>
           <h1 className="text-4xl md:text-6xl font-bold mb-4 bg-gradient-to-r from-amber-200 via-yellow-100 to-amber-400 bg-clip-text text-transparent serif-font drop-shadow-md">
             Kiến Tạo Biển Chức Danh Cao Cấp
