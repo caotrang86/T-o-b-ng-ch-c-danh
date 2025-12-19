@@ -16,7 +16,8 @@
     </style>
     <!-- Polyfill for process.env.API_KEY to support Netlify environment variables -->
     <script>
-      window.process = window.process || { env: { API_KEY: '' } };
+      // The string 'REPLACE_WITH_NETLIFY_API_KEY' will be replaced by the actual key during Netlify build
+      window.process = window.process || { env: { API_KEY: 'REPLACE_WITH_NETLIFY_API_KEY' } };
     </script>
     <script type="importmap">
     {
