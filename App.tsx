@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import { NameplateData, AppState } from './types';
-import InputForm from './components/InputForm';
-import ResultDisplay from './components/ResultDisplay';
-import { generateNameplateImage } from './services/geminiService';
+import { NameplateData, AppState } from './types.ts';
+import InputForm from './components/InputForm.tsx';
+import ResultDisplay from './components/ResultDisplay.tsx';
+import { generateNameplateImage } from './services/geminiService.ts';
 import { Crown, Key } from 'lucide-react';
 
 const App: React.FC = () => {

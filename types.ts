@@ -20,6 +20,6 @@ declare global {
   }
 
   interface Window {
-    aistudio: AIStudio;
+    aistudio?: AIStudio;
   }
 }

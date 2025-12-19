@@ -1,5 +1,5 @@
 import React, { useState, useRef } from 'react';
-import { NameplateData, AppState } from '../types';
+import { NameplateData, AppState } from '../types.ts';
 import { Camera, Briefcase, Phone, User, Upload } from 'lucide-react';
 
 interface InputFormProps {

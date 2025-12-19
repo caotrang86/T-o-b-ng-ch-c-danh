@@ -1,5 +1,5 @@
 import { GoogleGenAI } from "@google/genai";
-import { NameplateData } from "../types";
+import { NameplateData } from "../types.ts";
 
 export const generateNameplateImage = async (data: NameplateData): Promise<string> => {
   if (!data.imageBase64 || !data.imageMimeType) {

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Download, RefreshCw, Share2 } from 'lucide-react';
-import { AppState } from '../types';
+import { AppState } from '../types.ts';
 
 interface ResultDisplayProps {
   imageUrl: string | null;
